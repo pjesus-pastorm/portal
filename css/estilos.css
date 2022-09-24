@@ -1,0 +1,378 @@
+
+#cabecera {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    font-family: 'Open Sans';
+    background-color: #FFDB00;
+
+}
+#escudo {
+    height: 75px;
+
+}
+
+a {
+  color: #1D1D1B;  
+}
+
+.nav-link {
+    color: #1D1D1B;
+    font-weight: bold;
+}
+
+.franja-roja {
+    height: 8px;
+    background-color: #AD1519;
+}
+.franja-amarilla {
+    height: 8px;
+    background-color: #FFDB00;
+}
+
+footer {
+    background-color: #ECECE2;
+    font-size: 14px;
+}
+
+#titulo {
+    color:#ECECE2;
+    background-image:url(http://13.95.204.178/ministerioUnivesidades.grupoavalon.com/portal-web/images/reception-g44ab3a1ce_1920.jpeg);
+    height: 300px;
+    width: 1300px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+}
+
+.icon-icono2:before {
+    content: "\e902"; }
+
+
+.cnt_special_spacing_org {
+    width: 1450px;
+    max-width: 1450px !important;
+}
+
+
+.organigrama {
+    overflow-x: auto; }
+    .organigrama ol {
+      list-style: none; }
+    .organigrama .box_ejemplo {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 590px;
+      margin: 0 auto;
+      z-index: 2; }
+    .organigrama .rectangle {
+      position: relative;
+      border-radius: 6px;
+      background-color: #f3f4f6 !important; }
+      .organigrama .rectangle .circle {
+        border: 5px solid white;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        padding: 10px;
+        height: 100%; }
+        .organigrama .rectangle .circle img {
+          max-width: 60px;
+          margin-bottom: 10px; }
+        .organigrama .rectangle .circle h3 {
+          font-size: 22px;
+          line-height: 22px;
+          font-weight: 600;
+          text-align: center;
+          color: white; }
+        .organigrama .rectangle .circle h6 {
+          font-size: 16px;
+          line-height: 16px;
+          font-weight: 300;
+          text-align: center;
+          color: white;
+          padding: 0px 5px; }
+        .organigrama .rectangle .circle .title_min {
+          font-size: 14px;
+          font-weight: 600; }
+        .organigrama .rectangle .circle h5 {
+          font-size: 14px;
+          line-height: 16px;
+          font-weight: 300;
+          text-align: center;
+          color: white;
+          padding: 0px 5px; }
+        .organigrama .rectangle .circle i {
+          color: white; }
+      .organigrama .rectangle .btn_floting_top {
+        position: absolute;
+        right: 10px;
+        top: 5px; }
+        .organigrama .rectangle .btn_floting_top i {
+          color: #154581;
+          background-color: transparent;
+          padding: 6px 8px;
+          border-radius: 50px;
+          font-size: 25px; }
+        .organigrama .rectangle .btn_floting_top:hover i {
+          color: white;
+          background-color: #154581; }
+    .organigrama .rectangle_int {
+      position: absolute;
+      right: -93px; }
+      .organigrama .rectangle_int::before {
+        content: "";
+        position: absolute;
+        top: 43%;
+        left: -8%;
+        transform: translateX(-50%);
+        width: 35px;
+        height: 2px;
+        background: #154581; }
+    .organigrama .rectangle_int_left {
+      position: absolute;
+      left: -93px; }
+      .organigrama .rectangle_int_left::before {
+        content: "";
+        position: absolute;
+        top: 43%;
+        left: 108%;
+        transform: translateX(-50%);
+        width: 35px;
+        height: 2px;
+        background: #154581; }
+    .organigrama .level-1 {
+      width: 266px;
+      height: 266px;
+      padding: 15px; }
+    .organigrama .level-1-top-right::before {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 134px;
+      transform: translateX(-50%);
+      width: 2px;
+      height: 36px;
+      background: #154581; }
+    .organigrama .level-1-left:before {
+      content: "";
+      position: absolute;
+      bottom: -77px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 1px;
+      height: 77px;
+      border: 1px dashed #154581; }
+    .organigrama .level-2-interno {
+      width: 220px;
+      height: 220px;
+      padding: 15px; }
+    .organigrama .level-3-interno {
+      width: 220px;
+      height: 220px;
+      padding: 15px; }
+    .organigrama .level-2-wrapper {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-top: 55px;
+      padding: 0px; }
+      .organigrama .level-2-wrapper .img {
+        background-repeat: none !important;
+        background-position: center top !important;
+        background-attachment: initial;
+        background-repeat: no-repeat !important;
+        background-size: contain !important;
+        height: 260px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0px;
+        z-index: 1; }
+      .organigrama .level-2-wrapper::before {
+        content: "";
+        position: absolute;
+        top: -20px;
+        left: 25%;
+        width: 50%;
+        height: 2px;
+        background: #154581; }
+      .organigrama .level-2-wrapper li {
+        position: relative;
+        margin-top: 20px; }
+        .organigrama .level-2-wrapper li::before {
+          content: "";
+          position: absolute;
+          bottom: 100%;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 2px;
+          height: 40px;
+          background: #154581; }
+    .organigrama .box_cards_vertical {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      left: -132px; }
+      .organigrama .box_cards_vertical .rectangle_int {
+        position: relative !important;
+        width: 220px;
+        height: 220px;
+        margin-bottom: 30px;
+        right: 0;
+        display: none; }
+        .organigrama .box_cards_vertical .rectangle_int:before {
+          width: 2px;
+          height: 30px;
+          top: 100%;
+          left: 0;
+          right: 0;
+          margin: 0 auto; }
+    .organigrama .rectangle_interno {
+      margin-bottom: 20px;
+      padding: 20px;
+      position: relative;
+      border-radius: 6px;
+      color: white;
+      width: 266px; }
+      .organigrama .rectangle_interno p {
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 15px;
+        font-weight: 600; }
+      .organigrama .rectangle_interno .name {
+        font-weight: 300;
+        font-size: 14px; }
+      .organigrama .rectangle_interno .btn_floting_botton {
+        position: absolute;
+        right: 5px;
+        bottom: 10px; }
+        .organigrama .rectangle_interno .btn_floting_botton i {
+          color: white;
+          font-size: 16px;
+          background-color: transparent;
+          padding: 7px 6px 7px 8px;
+          border-radius: 50px; }
+        .organigrama .rectangle_interno .btn_floting_botton:hover i {
+          color: #008a00;
+          background-color: white; }
+      .organigrama .rectangle_interno .purple:hover i {
+        color: #822264 !important; }
+    .organigrama .box_3 {
+      display: flex; }
+    .organigrama .level-3-wrapper {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 30px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      padding: 0px;
+      margin-top: 60px; }
+    .organigrama .level-3-wrapper.wrapper-left::before {
+      content: "";
+      position: absolute;
+      top: -41px;
+      left: calc(2% - 7px);
+      width: calc(81% + 8px);
+      height: 2px;
+      background: #154581; }
+    .organigrama .wrapper-right::before {
+      content: "";
+      position: absolute;
+      top: -41px;
+      left: calc(19% - 5px);
+      width: calc(39% + 10px);
+      border: 1px dashed #154581; }
+    .organigrama .wrapper-left .box_1::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      transform: translate(-50%, -100%);
+      width: 2px;
+      height: 40px;
+      background: #154581;
+      left: 1%; }
+    .organigrama .wrapper-left .box_2::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      transform: translate(-50%, -100%);
+      width: 2px;
+      height: 40px;
+      background: #154581;
+      left: 41%; }
+    .organigrama .wrapper-left .box_3::before {
+      content: "";
+      left: 83%;
+      position: absolute;
+      top: 0;
+      transform: translate(-50%, -100%);
+      width: 2px;
+      height: 40px;
+      background: #154581; }
+    .organigrama .dashed_separador_top::after {
+      content: "";
+      position: absolute;
+      top: -40px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 1px;
+      height: 40px;
+      border: 1px dashed #154581; }
+    .organigrama .dashed_separador_top::before {
+      content: "";
+      position: absolute;
+      bottom: -77px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 1px;
+      height: 77px;
+      border: 1px dashed #154581; }
+    .organigrama .dashed_separador::before {
+      content: "";
+      position: absolute;
+      bottom: -77px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 1px;
+      height: 77px;
+      border: 1px dashed #154581; }
+    .organigrama .mh_185 {
+      max-height: 185px; }
+    .organigrama .m_h_260 {
+      height: 260px !important; }
+    .organigrama .m_h_310 {
+      height: 310px !important; }
+    .organigrama .m_h_100 {
+      height: 100px !important; }
+    .organigrama .m_h_460 {
+      height: 460px !important; }
+    .organigrama .blue {
+      background-color: #154581; }
+    .organigrama .purple {
+      background-color: #822264; }
+    .organigrama .green {
+      background-color: #008a00; }
+    .organigrama .plus:hover {
+      color: transparent; }
+    .organigrama .plus i {
+      font-size: 27px; }
+    .organigrama .plus .hover_icon {
+      display: none !important; }
+    .organigrama .plus:hover .hover_icon {
+      display: initial !important; }
+    .organigrama .plus:hover .icon {
+      display: none !important; }
+  
